@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Vertical Tables</title>
+
+    <style>
+        table{
+            width: 60%;
+        }
+        table, th, td{
+            border: 2px solid red;
+            border-collapse: collapse;
+            /* border-radius: 15px; */
+        }
+        th, td{
+            padding: 20px;
+        }
+
+
+        #second{
+            /* width: 80%; */
+        }
+    </style>
+</head>
+<body>
+      <table>
+           
+          <tr>
+              <th> Fruits</th>
+              <td id="second"> Apple</td>
+              <td> Banana</td>
+          </tr>
+
+          <tr>
+            <th rowspan="2"> Vegetables</th>
+            <td> Onion</td>
+            <td> Tomato</td>
+        </tr>
+
+        <tr>
+            <!-- <th> Vegetabless</th> -->
+            <td> Carrot</td>
+            <td> Bhindi</td>
+        </tr>
+
+      </table>
+</body>
+</html>
